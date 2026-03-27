@@ -1,0 +1,14 @@
+services:
+  build:
+    build: .
+    volumes:
+      - .:/app
+    command: tail -f /dev/null
+  
+  serve:
+    build: .
+    volumes:
+      - ./dist:/app/dist:ro
+    ports:
+      - "8000:8000"
+    command: python -m http.server 8000 --directory /app/dist
