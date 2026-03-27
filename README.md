@@ -1,7 +1,7 @@
 # shaunkahler.com
 
 <div align="center">
-  <img src="dinoblast.png" width="100%" alt="Portfolio Screenshot">
+  <img src="shaunkahler.png" width="100%" alt="Portfolio Screenshot">
 </div>
 
 A personal portfolio site built with Rust and [Macroquad](https://macroquad.rs/), featuring a unique retro game-like navigation experience.
